@@ -190,7 +190,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Download CV functionality
    // Download CV functionality
     function downloadCV() {
         const cvPath = 'assets/Shepherd_Makasa_CV.pdf'; // Update with your actual file name
