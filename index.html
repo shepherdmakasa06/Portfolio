@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shepherd Makasa | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <!-- Navigation Bar - Fixed header with glassmorphism effect -->
+    <nav class="nav">
+        <div class="container nav-container">
+            <!-- Portfolio brand/logo positioned on the left side -->
+            <a href="#" class="nav-brand">Portfolio.</a>
+
+            <!-- Navigation links grouped on the right side -->
+            <div class="nav-links-container">
+                <a href="#about" class="nav-link nav-about active">About</a>
+                <a href="#skills" class="nav-link nav-skills">Skills</a>
+                <a href="#projects" class="nav-link nav-projects">Projects</a>
+                <a href="#contact" class="nav-link nav-contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="about" class="hero">
+        <div class="container">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Shepherd Makasa</h1>
+                    <h2 class="hero-subtitle">
+                        <span id="typewriter"></span>
+                    </h2>
+                    <p class="hero-description">
+                        Passionate developer building clean and user-friendly experiences. I design and develop
+                        full-stack applications with attention to performance and accessibility.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="assets/Shepherd Makasa Cv.pdf" download class="btn btn-cv">
+                            <i class="fas fa-download"></i>
+                            <span>Download CV</span>
+                        </a>
+                        <a href="https://github.com/shepherdmakasa06" target="_blank" class="btn btn-secondary">
+                            <i class="fab fa-github"></i>
+                            <span>GitHub</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image-container">
+                    <div class="hero-image-wrapper">
+                        <img src="images/logo.jpeg" alt="Profile" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5 skill-icon skill-html"></i>
+                    <h3 class="skill-name">HTML</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt skill-icon skill-css"></i>
+                    <h3 class="skill-name">CSS</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js skill-icon skill-js"></i>
+                    <h3 class="skill-name">JavaScript</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-php skill-icon skill-php"></i>
+                    <h3 class="skill-name">PHP</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database skill-icon skill-mysql"></i>
+                    <h3 class="skill-name">MySQL</h3>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-python skill-icon skill-flask"></i>
+                    <h3 class="skill-name">Flask</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-icon project-blue">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="project-title">Marketing Website</h3>
+                    <p class="project-description">Professional marketing website with modern design and responsive
+                        layout.</p>
+                    <a href="https://protech.co.zw" target="_blank" class="project-link-text">
+                        View Project →
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon project-green">
+                        <i class="fas fa-cash-register"></i>
+                    </div>
+                    <h3 class="project-title">POS System</h3>
+                    <p class="project-description">Point of Sale system for retail businesses with inventory management.
+                    </p>
+                    <a href="#" class="project-link-text">
+                        View Project →
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon project-purple">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="project-title">School Portal</h3>
+                    <p class="project-description">Comprehensive school management system for students and teachers.</p>
+                    <a href="#" class="project-link-text">
+                        View Project →
+                    </a>
+                </div>
+                <div class="project-card">
+                    <div class="project-icon project-orange">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="project-title">E-Jobs Go</h3>
+                    <p class="project-description">A digital marketplace connecting service providers (tutoring,
+                        repairs, deliveries) with customers to combat youth unemployment in Zimbabwe.</p>
+                    <a href="#" class="project-link-text">
+                        View Project →
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope contact-icon"></i>
+                        <a href="mailto:shepherdmakasa06@gmail.com">shepherdmakasa06@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone contact-icon"></i>
+                        <a href="tel:+263789713315">+263789713315</a>
+                    </div>
+                    <div class="contact-social">
+                        <a href="https://www.linkedin.com/in/shepherd-makasa" target="_blank"
+                            class="social-link linkedin">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+
+                        <a href="https://wa.me/qr/RWQDDQLKLRPNC1?text=Hi%20Shepherd,%20I%20saw%20your%20portfolio..."
+                            target="_blank" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="from_name" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="user_email" required class="form-input">
+                        </div>
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" rows="4" required
+                                class="form-input form-textarea"></textarea>
+                        </div>
+                        <button type="submit" class="form-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Shepherd Makasa. All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
